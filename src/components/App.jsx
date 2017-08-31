@@ -10,7 +10,7 @@ import muiTheme from './Commons/muiTheme';
 const App = () => (
     <MuiThemeProvider muiTheme={muiTheme}>
         <div>
-            <Header />
+            {/*<Header />*/}
             <Main  />
         </div>
     </MuiThemeProvider>
