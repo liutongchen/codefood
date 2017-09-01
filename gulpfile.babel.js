@@ -45,7 +45,7 @@ gulp.task('run-dev-server', () => {
         inline: true,
         contentBase: path.join(__dirname, 'dist'),
         port: PORT_NUMBER,
-        //historyApiFallback: true,
+        historyApiFallback: true,
     };
 
     new WebpackDevServer(bundler, devServerConfig).listen(PORT_NUMBER, 'localhost');

@@ -24,7 +24,7 @@ const HomePage = () => (
     </CardText>
         <CardActions>
             <Link to='/food'><FlatButton label="Food" /></Link>
-            <FlatButton label="Action2" />
+            <Link to='/recipe'><FlatButton label="Recipe" /></Link>
         </CardActions>
     </Card>
     </div>
